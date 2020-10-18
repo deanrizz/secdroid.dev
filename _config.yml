@@ -1,4 +1,4 @@
-title: Dean Rizki Hartawan
+title: aa
 subtitle: Personal Website
 description: >- # this means to ignore newlines until "baseurl:"
   Personal Website
@@ -84,10 +84,10 @@ medium_username: deanrizz
 hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: deanrizki
+#wakatime_username: deanrizz
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # formspree (contact form)
 formspree_email: secdroid0@gmail.com
