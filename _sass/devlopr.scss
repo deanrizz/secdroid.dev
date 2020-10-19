@@ -111,8 +111,7 @@ ol, ul {
 
 /* Progress bar */
 .my-class .bar {
-    background: #f69801;
-}
+    background: hsl(250, 100%, 60%);
 
 body {
     background-color: var(--main-background-color) !important;
@@ -225,7 +224,7 @@ header {
 }
 
 .navbar-dark .navbar-brand {
-    color: #ff7601 !important;
+    color: hsl(250, 100%, 60%);
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
@@ -294,7 +293,7 @@ header {
         width: 5%;
         cursor: pointer;
         text-align: center;
-        color: orange;
+        color: hsl(250, 100%, 60%);
 
       .icon {
         vertical-align: text-top;
@@ -302,7 +301,7 @@ header {
         fill: #fff;
 
         &:hover {
-          fill: orange;
+          fill: hsl(250, 100%, 60%);
           transform: rotate(90deg);
         }
       }
@@ -327,13 +326,13 @@ header {
         position: absolute;
         top: 10%;
         width: 100%;
-        color: #f69801;
+        color:hsl(250, 100%, 60%);
         background: rgba(0, 0, 0, 0);
         font-size: 30px;
         font-weight: 300;
         text-align: center;
         border: 0px;
-        border-bottom: 1px dashed #ffa000;
+        border-bottom: 1px dashed hsl(250, 100%, 60%);
         margin: 0px auto;
         margin-top: -51px;
         padding-left: 30px;
@@ -342,7 +341,7 @@ header {
 
       &:focus {
         border: 0;
-        border-bottom: 1px dashed #ffa000;
+        border-bottom: 1px dashed hsl(250, 100%, 60%);
       }
     }
 
@@ -383,12 +382,12 @@ header {
         text-decoration: none;
         font-size: 25px;
         line-height: 25px;
-        color: orange !important;
+        color:hsl(250, 100%, 60%);
         text-decoration: none;
       }
 
       &__date {
-        color: orange;
+        color: hsl(250, 100%, 60%);
         font-size: 15px;
         line-height: 15px;
       }
@@ -530,7 +529,7 @@ header {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: coral;
+    color: hsl(250, 100%, 60%);
 }
 
 .product{
@@ -577,7 +576,7 @@ header {
 }
 
 .lg-progress-bar .lg-progress {
-    background-color: #db980f !important;
+    background-color: hsl(250, 100%, 60%) !important;
     height: 4px;
     width: 0;
 }
@@ -638,7 +637,7 @@ header {
 }
 .article-card-link, .article-card-link:hover{
     text-decoration: none;
-    color: orange !important;
+    color: hsl(250, 100%, 60%) !important;
 }
 .article-card{
     list-style-type: none;
