@@ -12,7 +12,7 @@ html[data-theme="dark"] {
     --highlight-color: hsl(0, 0%, 60%);
     --light-border-color: hsl(0, 0%, 30%);
     --light-text-color: rgb(199, 199, 204);
-    --link-color: hsl(250, 100%, 60%);
+    --link-color: #f69801;
     --link-color-visited: hsl(250, 100%, 60%);
     --main-background-color: rgb(28, 28, 30);
     --main-text-color: rgb(139, 139, 139);
@@ -53,9 +53,9 @@ html[data-theme="light"] {
         --highlight-color: hsl(0, 0%, 60%);
         --light-border-color: hsl(0, 0%, 30%);
         --light-text-color: rgb(199, 199, 204);
-        --link-color:hsl(250, 100%, 60%);
+        --link-color: #f69801;
         --nav-color: #131313;
-        --search-color: hsl(250, 100%, 60%);
+        --search-color: #FF7901;
         --nav-link-color: rgba(255, 255, 255, .5);
         --link-color-visited: hsl(250, 100%, 60%);
         --main-background-color: rgb(28, 28, 30);
@@ -111,7 +111,8 @@ ol, ul {
 
 /* Progress bar */
 .my-class .bar {
-    background: hsl(250, 100%, 60%);
+    background: #f69801;
+}
 
 body {
     background-color: var(--main-background-color) !important;
@@ -224,7 +225,7 @@ header {
 }
 
 .navbar-dark .navbar-brand {
-    color: hsl(250, 100%, 60%);
+    color: #ff7601 !important;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
@@ -293,7 +294,7 @@ header {
         width: 5%;
         cursor: pointer;
         text-align: center;
-        color: hsl(250, 100%, 60%);
+        color: orange;
 
       .icon {
         vertical-align: text-top;
@@ -301,7 +302,7 @@ header {
         fill: #fff;
 
         &:hover {
-          fill: hsl(250, 100%, 60%);
+          fill: orange;
           transform: rotate(90deg);
         }
       }
@@ -326,13 +327,13 @@ header {
         position: absolute;
         top: 10%;
         width: 100%;
-        color:hsl(250, 100%, 60%);
+        color: #f69801;
         background: rgba(0, 0, 0, 0);
         font-size: 30px;
         font-weight: 300;
         text-align: center;
         border: 0px;
-        border-bottom: 1px dashed hsl(250, 100%, 60%);
+        border-bottom: 1px dashed #ffa000;
         margin: 0px auto;
         margin-top: -51px;
         padding-left: 30px;
@@ -341,7 +342,7 @@ header {
 
       &:focus {
         border: 0;
-        border-bottom: 1px dashed hsl(250, 100%, 60%);
+        border-bottom: 1px dashed #ffa000;
       }
     }
 
@@ -382,12 +383,12 @@ header {
         text-decoration: none;
         font-size: 25px;
         line-height: 25px;
-        color:hsl(250, 100%, 60%);
+        color: orange !important;
         text-decoration: none;
       }
 
       &__date {
-        color: hsl(250, 100%, 60%);
+        color: orange;
         font-size: 15px;
         line-height: 15px;
       }
@@ -519,7 +520,7 @@ header {
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: #ffff !important;
+    color: #111 !important;
 }
 
 .fa {
@@ -529,7 +530,7 @@ header {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: hsl(250, 100%, 60%);
+    color: coral;
 }
 
 .product{
@@ -576,7 +577,7 @@ header {
 }
 
 .lg-progress-bar .lg-progress {
-    background-color: hsl(250, 100%, 60%) !important;
+    background-color: #db980f !important;
     height: 4px;
     width: 0;
 }
@@ -637,7 +638,7 @@ header {
 }
 .article-card-link, .article-card-link:hover{
     text-decoration: none;
-    color: hsl(250, 100%, 60%) !important;
+    color: orange !important;
 }
 .article-card{
     list-style-type: none;
