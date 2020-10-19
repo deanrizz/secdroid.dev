@@ -3,12 +3,10 @@ subtitle:
 description: >- # this means to ignore newlines until "baseurl:"
   
 
-url: "secdroid.dev" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://secdroid.dev" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Home
-      url: secdroid.dev
     - text: About Me
       url: /about
     - text: Blog
